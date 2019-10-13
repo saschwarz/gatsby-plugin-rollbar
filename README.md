@@ -27,3 +27,5 @@ plugins: [
   }
 ];
 ```
+
+This plugin only generates output when run in production mode. To test Rollbar integration when generating local exceptions run `gatsby build && gatsby serve` and trigger code that throws an exception.
